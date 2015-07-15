@@ -1,0 +1,1 @@
+/usr/bin/cc  -g    CMakeFiles/inotify_client_server.dir/iNotify_Check.c.o CMakeFiles/inotify_client_server.dir/socket_client.c.o  -o inotify_client_server -rdynamic 

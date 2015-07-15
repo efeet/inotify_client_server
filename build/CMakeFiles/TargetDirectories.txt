@@ -1,0 +1,1 @@
+/home/usanchezc/projects/inotify_client_server/build/CMakeFiles/inotify_client_server.dir
