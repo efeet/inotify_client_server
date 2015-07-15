@@ -147,5 +147,27 @@ inclusive=0
 pattern=__pycache__
 targets=2
 
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=inotify_client_server
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=/opt/PRUEBA
+Configured from ProjectItem=inotify_client_server,inotify_client_server
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=
+Executable=file:///home/usanchezc/projects/inotify_client_server/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=inotify_client_server,inotify_client_server
+Use External Terminal=false
+Working Directory=file:///home/usanchezc/projects/inotify_client_server/build/
+isExecutable=false
+
 [Project]
 VersionControlSupport=kdevgit
